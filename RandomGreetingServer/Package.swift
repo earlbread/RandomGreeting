@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "RandomHelloServer",
+    name: "RandomGreetingServer",
     dependencies: [
         .Package(url: "https://github.com/IBM-Swift/Kitura.git", majorVersion: 1)
     ]
