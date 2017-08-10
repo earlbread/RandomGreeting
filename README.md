@@ -1,10 +1,10 @@
 # Random Greeting
 
+This is end-to-end application written in Swift. [Kitura][] is used for the server.
+
 <p align="center">
     <img src="./app.gif" alt="App Gif">
 </p>
-
-This is end-to-end application written in Swift. [Kitura][] is used for the server.
 
 [Kitura]: https://github.com/IBM-Swift/Kitura
 
