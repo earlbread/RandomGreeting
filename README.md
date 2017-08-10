@@ -1,6 +1,8 @@
 # Random Greeting
 
-![App Gif](./app.gif)
+<p align="center">
+    <img src="./app.gif" alt="App Gif">
+</p>
 
 This is end-to-end application written in Swift. [Kitura][] is used for the server.
 
