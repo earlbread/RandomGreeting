@@ -2,6 +2,10 @@
 
 ![App Gif](./app.gif)
 
+This is end-to-end application written in Swift. [Kitura][] is used for the server.
+
+[Kitura]: https://github.com/IBM-Swift/Kitura
+
 ## How to run the server
 
 ```bash
