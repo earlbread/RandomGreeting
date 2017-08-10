@@ -33,6 +33,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GIm-Ld-t6c">
                                         <rect key="frame" x="0.0" y="40.5" width="123" height="30"/>
                                         <state key="normal" title="Get New Greeting"/>
+                                        <connections>
+                                            <action selector="getGreeting:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wyT-Gb-hxr"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -44,7 +47,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="greetingButton" destination="GIm-Ld-t6c" id="jJe-se-qz9"/>
                         <outlet property="greetingLabel" destination="eGe-T4-c88" id="ik8-gJ-Jlw"/>
                     </connections>
                 </viewController>
